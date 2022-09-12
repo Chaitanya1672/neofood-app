@@ -1,0 +1,79 @@
+.bannerImg {
+  height: 550px;
+  width: 550px;
+}
+
+.banner_fast {
+  height: 90px;
+  width: 220px;
+  font-family: 'poppins';
+  font-style: bold;
+  color: #FF7E00;
+  font-weight: 700;
+  Font-size: 125px;
+  line-height: 94.8%;
+  letter-spacing: -0.035em;
+}
+
+.banner_food {
+  font-family: 'Poppins';
+  font-style: Bold;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 49px;
+  line-height: 95%;
+}
+
+.banner_text {
+  width: 568px;
+  height: 62px;
+  font-family: 'poppins';
+  line-height: 31px;
+  line-height: 139%;
+  font-size: 22px;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(144, 144, 144, 1);
+}
+
+.orderNow {
+  width: 188px;
+  height: 70px;
+  background-color: rgba(47, 47, 47, 1);
+  border-radius: 84px;
+}
+
+.orderNowText {
+  width: 108px;
+  height: 19px;
+  font-family: 'poppins';
+  font-size: 20px;
+  line-height: 95%;
+  font-weight: 600;
+  color: #f4ece1;
+}
+
+.watchVideo {
+  width: 188px;
+  height: 70px;
+  background: #ffffff;
+  box-shadow: 0px 20px 32px -8px rgba(0, 0, 0, 0.2);
+  border-radius: 84px;
+}
+
+.videoIcon {
+  width: 57px;
+  height: 57px;
+  background: rgba(255, 248, 240, 1);
+  box-shadow: rgba(0, 0, 0, 0.1);
+}
+
+.watchVideoText {
+  width: 131px;
+  height: 19px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 94.8%;
+}
