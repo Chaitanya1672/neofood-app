@@ -2,6 +2,7 @@ import React from 'react';
 import { BsFillPlayFill } from 'react-icons/bs';
 import BannerImage from '../static/images/BannerImage.png'
 import Styles from './banner.module.css'
+import { BsFillStarFill } from 'react-icons/bs';
 
 
 const Banner = () => {
@@ -33,6 +34,21 @@ const Banner = () => {
                   <span className={Styles.videoIcon}><BsFillPlayFill /></span>
                   <span className={Styles.watchVideoText}>Watch Video</span>
                 </button>
+              </div>
+            </div>
+            <div className={`mt-4   ${Styles.star}`}>
+              <span className='mx-1'><BsFillStarFill /></span>
+              <span className='mx-1'><BsFillStarFill /></span>
+              <span className='mx-1'><BsFillStarFill /></span>
+              <span className='mx-1'><BsFillStarFill /></span>
+              <span className='mx-1'><BsFillStarFill /></span>
+            </div>
+            <div className={`${Styles.starRating}`}>
+              <div className={Styles.starIconText}>
+                5 Star rating
+              </div>
+              <div className={Styles.reviewNo}>
+                based on 1788 reviews
               </div>
             </div>
           </div>

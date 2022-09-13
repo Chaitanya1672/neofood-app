@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
+.trending_food {
+  font-family: 'inter';
+}
+
+.header {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 70px;
+  color: #383C3E;
+}
+
+.header_text {
+  font-size: 16px;
+  line-height: 26px;
+  color: #737B7D;
+}
+
+.foodImg {
+  width: 475px;
+  height: 491px;
+}
+
+.food_title {
+  width: 642px;
+  height: 62px;
+  font-family: 'inter';
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 52px;
+}
+
+.rating_icons {
+  color: #000;
+}
+
+.icons {
+  width: 42px;
+  height: 36px;
+}
+
+.favfood_price {
+  /* width: 251px; */
+  font-style: 36px;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  color: rgba(254, 187, 65, 1);
+}
+
+.review {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.review_link {
+  font-weight: 400;
+  text-decoration: none;
+  font-family: 'Montserrat';
+  font-size: 18px;
+  line-height: 22px;
+  color: rgba(56, 34, 116, 1);
+}
+
+.quantity_text {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 24px;
+  padding-bottom: 0.5rem;
+  color: rgba(0, 0, 0, 1);
+}
+
+.qty_btn {
+  width: 36px;
+  height: 35px;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+}
+
+.like_btn {
+  width: 200px;
+  height: 60px;
+}
+
+.quanitity_handler {
+  margin-top: 250px;
+}
+
+.img_options {
+  width: 475px;
+}

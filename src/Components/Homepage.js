@@ -6,7 +6,7 @@ import Search from '../static/images/Search.png'
 const Homepage = () => {
     return (
         <>
-            <div className="container-fluid">
+            <div className="container">
                 <div className={`row mt-4 ${Styles.navbar}`}>
                     <span className={`col-md-4 ${Styles.title}`}>
                         <span><img src={chefhat} /></span>

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+.header {
+  font-family: 'inter';
+  font-weight: 700;
+  font-size: 44px;
+}
+
+.para {
+  font-size: 16px;
+  font-family: 'inter';
+  font-weight: 400;
+  color: #737B7D;
+}
+
+.food_img {
+  border-radius: 15px;
+  height: 250px;
+}
+
+.card {
+  border-radius: 15px;
+  width: 18rem;
+  border-color: black;
+}
