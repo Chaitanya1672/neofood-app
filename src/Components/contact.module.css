@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+.inputSize {
+  width: 548px;
+  height: 36px;
+  border: 0;
+  outline: none;
+  border-bottom: 1px solid #737B7D;
+  margin-bottom: 2rem;
+}
+
+.inputSize::placeholder {
+  font-family: 'inter';
+  font-weight: 400;
+  padding-left: 0.5rem;
+}
+
+.address,
+.pincode {
+  border: 0;
+  outline: none;
+  border-bottom: 1px solid #737B7D;
+  margin-bottom: 2rem;
+}
+
+.address::placeholder,
+.pincode::placeholder {
+  font-family: 'inter';
+  font-weight: 400;
+  padding-left: 0.5rem;
+}
+
+.address {
+  width: 357px;
+}
+
+.pincode {
+  margin-left: 21px;
+  width: 167px;
+}

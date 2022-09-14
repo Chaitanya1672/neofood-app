@@ -4,6 +4,7 @@ import Banner from './Components/Banner';
 import Homepage from './Components/Homepage';
 import PopularItems from './Components/PopularItems';
 import TrendingPage from './Components/TrendingPage';
+import ContactUs from './Components/Contact';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Banner />
       <TrendingPage />
       <PopularItems />
+      <ContactUs />
     </React.Fragment>
   );
 }

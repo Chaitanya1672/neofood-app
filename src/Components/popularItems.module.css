@@ -14,12 +14,12 @@
 }
 
 .food_img {
-  border-radius: 15px;
+  border-radius: 20px;
   height: 250px;
 }
 
 .card {
-  border-radius: 15px;
-  width: 18rem;
+  border-radius: 20px;
+  width: 16rem;
   border-color: black;
 }

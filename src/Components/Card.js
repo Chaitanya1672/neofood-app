@@ -1,20 +1,19 @@
 import React from 'react';
-import TrendingFood from '../static/images/TrendingFood.jpg';
 import Styles from './popularItems.module.css';
 
 
-const Card = () => {
-  const cardItems = [
-    { title: 'hello', description: 'hello', price: 1200 }
+const Card = (props) => {
+  const newItem = [
+    { heading: 'other method' }
   ]
   return (
     <div className={`card ${Styles.card}`}>
-      <img src={TrendingFood} className={`card-img-top ${Styles.food_img}`} alt="image" />
+      <img src={props.item.src} className={`card-img-top ${Styles.food_img}`} alt="image" />
       <div className="card-body">
-        <h5 className="card-title">{cardItems.title}</h5>
-        <p className="card-text">{cardItems.description}</p>
-        <p> {`$${cardItems.price}`}</p>
-        <a href="#" className="btn btn-primary">{''}</a>
+        <h5 className="card-title">{newItem.heading}</h5>
+        <p className="card-text">{props.item.description}</p>
+        <p> {props.item.price}</p>
+        <a href="" className="btn btn-primary">ADD</a>
       </div>
     </div>
   )
