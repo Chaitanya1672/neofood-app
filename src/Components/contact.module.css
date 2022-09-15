@@ -38,3 +38,24 @@
   margin-left: 21px;
   width: 167px;
 }
+
+.title {
+  width: 357px;
+  line-height: 26px;
+  font-family: 'inter';
+  font-size: 16px;
+  font-weight: 700;
+  color: #383C3E;
+  letter-spacing: 0.5px;
+  margin-bottom: 32px;
+}
+
+.office_text {
+  width: 357px;
+  font-weight: 400;
+  font-family: 'inter';
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  color: #383C3E;
+  line-height: 26px;
+}

@@ -4,7 +4,6 @@ import BannerImage from '../static/images/BannerImage.png'
 import Styles from './banner.module.css'
 import { BsFillStarFill } from 'react-icons/bs';
 
-
 const Banner = () => {
   return (
     <>

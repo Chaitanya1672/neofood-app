@@ -5,11 +5,11 @@ import TrendingFood from '../static/images/TrendingFood.jpg';
 
 const PopularItems = () => {
   const cardItems = [
-    { title: 'hello', description: 'hello', price: '$1200', src: TrendingFood },
-    { title: 'second text', description: 'this is null', price: '$1300', src: TrendingFood },
-    { title: 'second text', description: 'this is null', price: '$1300', src: TrendingFood },
-    { title: 'second text', description: 'this is null', price: '$1300', src: TrendingFood },
-    { title: 'second text', description: 'this is null', price: '$1300', src: TrendingFood }
+    { id: 1, title: 'hello', description: 'hello', price: '$1200', src: TrendingFood },
+    { id: 2, title: 'second text', description: 'this is null', price: '$1300', src: TrendingFood },
+    { id: 3, title: 'second text', description: 'this is null', price: '$1300', src: TrendingFood },
+    { id: 4, title: 'second text', description: 'this is null', price: '$1300', src: TrendingFood },
+    { id: 5, title: 'second text', description: 'this is null', price: '$1300', src: TrendingFood }
   ]
   return (
     <>
@@ -18,7 +18,7 @@ const PopularItems = () => {
         <p className={Styles.para}>Most ordered Items</p>
         <span className="d-flex flex-wrap gap-4">
           {cardItems.map((item) => (
-            <Card item={item} />
+            <Card key={item.id} item={item} />
 
           ))}
         </span>
