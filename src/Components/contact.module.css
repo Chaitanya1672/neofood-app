@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
+.contact_page {
+  margin-bottom: 20px;
+}
+
 .inputSize {
   width: 548px;
   height: 36px;
@@ -47,7 +51,7 @@
   font-weight: 700;
   color: #383C3E;
   letter-spacing: 0.5px;
-  margin-bottom: 32px;
+  margin-bottom: 30px;
 }
 
 .office_text {
@@ -57,5 +61,35 @@
   font-size: 16px;
   letter-spacing: 0.5px;
   color: #383C3E;
-  line-height: 26px;
+  line-height: 20px;
+}
+
+.uni_states,
+.uni_kingdom,
+.france {
+  margin-bottom: 1rem;
+}
+
+.location_img {
+  padding: 1rem;
+}
+
+.checkbox {
+  margin-right: 1rem;
+  margin-left: 0.5rem;
+}
+
+.checkbx_label {
+  width: 313px;
+  line-height: 22px;
+  font-family: 'inter';
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.submit_btn {
+  margin-top: 1rem;
+  height: 60px;
+  width: 600px;
 }

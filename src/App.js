@@ -5,6 +5,7 @@ import Homepage from './Components/Homepage';
 import PopularItems from './Components/PopularItems';
 import TrendingPage from './Components/TrendingPage';
 import ContactUs from './Components/Contact';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <TrendingPage />
       <PopularItems />
       <ContactUs />
+      <Footer />
     </React.Fragment>
   );
 }
