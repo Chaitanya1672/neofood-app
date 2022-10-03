@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
 
 .header {
-  font-family: 'inter';
+  font-family: "inter";
   font-weight: 700;
   font-size: 44px;
 }
 
 .para {
   font-size: 16px;
-  font-family: 'inter';
+  font-family: "inter";
   font-weight: 400;
-  color: #737B7D;
+  color: #737b7d;
 }
 
 .food_img {
@@ -22,4 +22,11 @@
   border-radius: 20px;
   width: 16rem;
   border-color: black;
+}
+@media (max-width: 768px) {
+  .card {
+    border-radius: 20px;
+    width: 80%;
+    border-color: black;
+  }
 }

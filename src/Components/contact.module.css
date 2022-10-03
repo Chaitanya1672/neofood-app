@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
 
 .contact_page {
   margin-bottom: 20px;
@@ -9,12 +9,12 @@
   height: 36px;
   border: 0;
   outline: none;
-  border-bottom: 1px solid #737B7D;
+  border-bottom: 1px solid #737b7d;
   margin-bottom: 2rem;
 }
 
 .inputSize::placeholder {
-  font-family: 'inter';
+  font-family: "inter";
   font-weight: 400;
   padding-left: 0.5rem;
 }
@@ -23,13 +23,13 @@
 .pincode {
   border: 0;
   outline: none;
-  border-bottom: 1px solid #737B7D;
+  border-bottom: 1px solid #737b7d;
   margin-bottom: 2rem;
 }
 
 .address::placeholder,
 .pincode::placeholder {
-  font-family: 'inter';
+  font-family: "inter";
   font-weight: 400;
   padding-left: 0.5rem;
 }
@@ -46,10 +46,10 @@
 .title {
   width: 357px;
   line-height: 26px;
-  font-family: 'inter';
+  font-family: "inter";
   font-size: 16px;
   font-weight: 700;
-  color: #383C3E;
+  color: #383c3e;
   letter-spacing: 0.5px;
   margin-bottom: 30px;
 }
@@ -57,10 +57,10 @@
 .office_text {
   width: 357px;
   font-weight: 400;
-  font-family: 'inter';
+  font-family: "inter";
   font-size: 16px;
   letter-spacing: 0.5px;
-  color: #383C3E;
+  color: #383c3e;
   line-height: 20px;
 }
 
@@ -82,7 +82,7 @@
 .checkbx_label {
   width: 313px;
   line-height: 22px;
-  font-family: 'inter';
+  font-family: "inter";
   font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.5px;
@@ -91,5 +91,5 @@
 .submit_btn {
   margin-top: 1rem;
   height: 60px;
-  width: 600px;
+  width: 100%;
 }
