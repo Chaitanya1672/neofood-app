@@ -23,7 +23,18 @@
     color: #000000;
 }
 
+.navSearch {
+    position: relative;
+}
+
+.searchImg {
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 19px;
+}
+
 .search_input {
+    position: relative;
     width: 300px;
     height: 60px;
     background: rgba(255, 249, 240, 0.1);
@@ -31,8 +42,7 @@
     border-radius: 30px;
 }
 
-.search_input::placeholder {
-    height: 21px;
+l .search_input::placeholder {
     font-family: "Poppins";
     font-style: normal;
     font-weight: 400;

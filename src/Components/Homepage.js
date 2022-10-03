@@ -18,8 +18,8 @@ const Homepage = () => {
                     <span className={`col ${Styles.nav_menu}`}><a>{homepage?.nav?.menu}</a></span>
                     <span className={`col ${Styles.nav_menu}`}><a>{homepage?.nav?.contact}</a></span>
                     <span className={`col ${Styles.nav_menu}`}><a>{homepage?.nav?.shop}</a></span>
-                    <span className='col-md-4 '>
-                        <img src={Search} />
+                    <span className={`col-md-4 ${Styles.navSearch}`}>
+                        <img src={Search} className={Styles.searchImg} />
                         <input
                             className={`${Styles.search_input}`}
                             type='text'
